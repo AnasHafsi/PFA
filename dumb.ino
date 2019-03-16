@@ -55,6 +55,7 @@ void goBack(){
   digitalWrite(IN3, LOW);
 }
 void stop(){
+  Serial.println("Stop");
   digitalWrite(IN1, LOW);
   digitalWrite(IN3, LOW);
   digitalWrite(IN2, LOW);
